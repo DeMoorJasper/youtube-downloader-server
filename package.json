@@ -1,0 +1,18 @@
+{
+  "name": "YoutubeDownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "express": "^4.15.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^0.17.1"
+  }
+}
